@@ -1,20 +1,94 @@
 <!doctype html>
-<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#123a5a"><title>JIMOPTIC | ประวัติลูกค้า</title>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#123a5a">
+<title>JIMOPTIC | ประวัติลูกค้า</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#f3f7f9;color:#183043;font:16px -apple-system,BlinkMacSystemFont,sans-serif}header{background:linear-gradient(130deg,#123a5a,#176b87);color:white;padding:18px 16px}.brand{font-size:12px;letter-spacing:2px}.head{display:flex;justify-content:space-between;align-items:center;gap:10px}h1{font-size:23px;margin:8px 0 0}.count{background:#ffffff20;padding:8px 13px;border-radius:12px;text-align:center}main{max-width:900px;margin:auto;padding:12px}.nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-bottom:12px}button{font:inherit;cursor:pointer;border:1px solid #dbe5eb;background:white;color:#123a5a;font-weight:700;border-radius:11px;padding:12px 8px}.nav button.active,.primary{background:#123a5a;color:white;border-color:#123a5a}.panel{background:white;border:1px solid #dbe5eb;border-radius:15px;padding:14px;margin-bottom:12px}h2{font-size:19px;margin:0 0 12px}h3{font-size:16px;margin:0 0 8px}label{display:block;font-size:14px;font-weight:700;margin:10px 0 6px}input,textarea{width:100%;padding:12px;border:1px solid #bdcdd6;border-radius:10px;font:inherit;color:#183043;background:#fff;min-height:44px}textarea{min-height:76px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.section{font-weight:800;color:#176b87;border-bottom:1px solid #dbe5eb;padding-bottom:7px;margin:16px 0 4px}.full{grid-column:1/-1}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.actions button{flex:1;min-width:110px}.secondary{background:#edf6fa}.danger{background:#fff0ee;color:#a1281d}.customer{padding:13px 0;border-bottom:1px solid #dbe5eb}.customerTop{display:flex;justify-content:space-between;align-items:center;gap:8px}.small,.status{font-size:13px;color:#617583}.hidden{display:none!important}.notice{background:#fff8e4;border:1px solid #f0dda5;border-radius:12px;padding:12px;font-size:13px;line-height:1.5}@media(max-width:560px){.grid{grid-template-columns:1fr}.nav{grid-template-columns:1fr 1fr}.nav button:last-child{grid-column:1/-1}}
-</style></head><body>
+*{box-sizing:border-box}
+body{margin:0;background:#f3f7f9;color:#183043;font:16px -apple-system,BlinkMacSystemFont,sans-serif}
+header{background:linear-gradient(130deg,#123a5a,#176b87);color:white;padding:18px 16px}
+.brand{font-size:12px;letter-spacing:2px}
+.head{display:flex;justify-content:space-between;align-items:center;gap:10px}
+h1{font-size:23px;margin:8px 0 0}
+.count{background:#ffffff20;padding:8px 13px;border-radius:12px;text-align:center}
+main{max-width:900px;margin:auto;padding:12px}
+.nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-bottom:12px}
+button{font:inherit;cursor:pointer;border:1px solid #dbe5eb;background:white;color:#123a5a;font-weight:700;border-radius:11px;padding:12px 8px}
+.nav button.active,.primary{background:#123a5a;color:white;border-color:#123a5a}
+.panel{background:white;border:1px solid #dbe5eb;border-radius:15px;padding:14px;margin-bottom:12px}
+h2{font-size:19px;margin:0 0 12px}
+h3{font-size:16px;margin:0 0 8px}
+label{display:block;font-size:14px;font-weight:700;margin:10px 0 6px}
+input,textarea{width:100%;padding:12px;border:1px solid #bdcdd6;border-radius:10px;font:inherit;color:#183043;background:#fff;min-height:44px}
+textarea{min-height:76px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.section{font-weight:800;color:#176b87;border-bottom:1px solid #dbe5eb;padding-bottom:7px;margin:16px 0 4px}
+.full{grid-column:1/-1}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.actions button{flex:1;min-width:110px}
+.secondary{background:#edf6fa}
+.danger{background:#fff0ee;color:#a1281d}
+.customer{padding:13px 0;border-bottom:1px solid #dbe5eb}
+.customerTop{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.small,.status{font-size:13px;color:#617583}
+.hidden{display:none!important}
+.notice{background:#fff8e4;border:1px solid #f0dda5;border-radius:12px;padding:12px;font-size:13px;line-height:1.5}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.nav{grid-template-columns:1fr 1fr}.nav button:last-child{grid-column:1/-1}}
+</style>
+</head>
+<body>
 <header><div class="brand">JIMOPTIC • CUSTOMER CARE</div><div class="head"><h1>ประวัติลูกค้า</h1><div class="count"><b id="total">0</b><br>รายชื่อ</div></div></header>
-<main><div class="nav"><button class="active" data-view="home">ค้นหาลูกค้า</button><button data-view="form">＋ เพิ่มลูกค้า</button><button data-view="backup">สำรองข้อมูล</button></div>
-<section id="home" class="view"><div class="panel"><h2>ค้นหาประวัติลูกค้า</h2><input id="search" placeholder="ชื่อ เบอร์โทร หรือรหัสลูกค้า" autocomplete="off"><div class="actions"><button class="primary" id="newBtn">＋ เพิ่มลูกค้าใหม่</button></div></div><div class="panel"><h2>รายชื่อลูกค้า</h2><div id="customerList"></div><p id="empty" class="small">ยังไม่มีรายชื่อลูกค้า กด “เพิ่มลูกค้าใหม่” เพื่อเริ่มต้น</p></div></section>
-<section id="form" class="view hidden"><form id="customerForm" class="panel" autocomplete="off"><h2 id="formTitle">เพิ่มลูกค้าใหม่</h2><p class="small">กรอกข้อมูลที่จำเป็น สามารถแก้ไขภายหลังได้</p><input id="cid" type="hidden"><div class="grid">
-<div class="full"><label for="name">ชื่อ-นามสกุล *</label><input id="name" required maxlength="100" autocomplete="off"></div><div><label for="phone">เบอร์โทรศัพท์</label><input id="phone" type="tel" inputmode="tel" autocomplete="off"></div><div><label for="birthday">วันเกิด</label><input id="birthday" type="date"></div><div class="full"><label for="note">หมายเหตุ / LINE</label><textarea id="note"></textarea></div></div>
-<div class="section">ค่าสายตาล่าสุด</div><div class="grid">
-<div><label for="r_sph">ตาขวา SPH</label><input id="r_sph" placeholder="-1.00"></div><div><label for="r_cyl">ตาขวา CYL</label><input id="r_cyl" placeholder="-0.50"></div><div><label for="r_axis">ตาขวา AXIS</label><input id="r_axis" placeholder="180"></div><div><label for="r_add">ตาขวา ADD</label><input id="r_add" placeholder="+2.00"></div><div><label for="l_sph">ตาซ้าย SPH</label><input id="l_sph" placeholder="-1.00"></div><div><label for="l_cyl">ตาซ้าย CYL</label><input id="l_cyl" placeholder="-0.50"></div><div><label for="l_axis">ตาซ้าย AXIS</label><input id="l_axis" placeholder="180"></div><div><label for="l_add">ตาซ้าย ADD</label><input id="l_add" placeholder="+2.00"></div><div><label for="pd">PD (มม.)</label><input id="pd" inputmode="decimal"></div><div><label for="examDate">วันที่วัดสายตา</label><input id="examDate" type="date"></div><div class="full"><label for="rxNote">หมายเหตุค่าสายตา</label><textarea id="rxNote"></textarea></div></div>
-<div class="section">ประวัติซื้อแว่นล่าสุด</div><div class="grid"><div><label for="buyDate">วันที่ซื้อ</label><input id="buyDate" type="date"></div><div><label for="price">ราคา (บาท)</label><input id="price" type="number" min="0" step="1" inputmode="numeric"></div><div><label for="frame">กรอบแว่น</label><input id="frame"></div><div><label for="lens">เลนส์</label><input id="lens"></div><div><label for="warranty">วันหมดประกัน</label><input id="warranty" type="date"></div><div class="full"><label for="buyNote">หมายเหตุการซื้อ</label><textarea id="buyNote"></textarea></div></div><div class="actions"><button type="submit" class="primary">บันทึกข้อมูล</button><button type="button" id="cancelBtn" class="secondary">ยกเลิก</button></div><div id="formStatus" class="status" role="status"></div></form></section>
+<main>
+<div class="nav"><button class="active" data-view="home">ค้นหาลูกค้า</button><button data-view="form">＋ เพิ่มลูกค้า</button><button data-view="backup">สำรองข้อมูล</button></div>
+<section id="home" class="view">
+  <div class="panel"><h2>ค้นหาประวัติลูกค้า</h2><input id="search" placeholder="ชื่อ เบอร์โทร หรือรหัสลูกค้า" autocomplete="off"><div class="actions"><button class="primary" id="newBtn">＋ เพิ่มลูกค้าใหม่</button></div></div>
+  <div class="panel"><h2>รายชื่อลูกค้า</h2><div id="customerList"></div><p id="empty" class="small">ยังไม่มีรายชื่อลูกค้า กด “เพิ่มลูกค้าใหม่” เพื่อเริ่มต้น</p></div>
+</section>
+<section id="form" class="view hidden">
+<form id="customerForm" class="panel" autocomplete="off">
+<h2 id="formTitle">เพิ่มลูกค้าใหม่</h2><p class="small">กรอกข้อมูลที่จำเป็น สามารถแก้ไขภายหลังได้</p><input id="cid" type="hidden">
+<div class="grid">
+<div class="full"><label for="name">ชื่อ-นามสกุล *</label><input id="name" required maxlength="100" autocomplete="off"></div>
+<div><label for="phone">เบอร์โทรศัพท์</label><input id="phone" type="tel" inputmode="tel" autocomplete="off"></div>
+<div><label for="birthday">วันเกิด</label><input id="birthday" type="date"></div>
+<div class="full"><label for="note">หมายเหตุ / LINE</label><textarea id="note"></textarea></div>
+</div>
+<div class="section">ค่าสายตาล่าสุด</div>
+<div class="grid">
+<div><label for="r_sph">ตาขวา SPH</label><input id="r_sph" placeholder="-1.00"></div><div><label for="r_cyl">ตาขวา CYL</label><input id="r_cyl" placeholder="-0.50"></div>
+<div><label for="r_axis">ตาขวา AXIS</label><input id="r_axis" placeholder="180"></div><div><label for="r_add">ตาขวา ADD</label><input id="r_add" placeholder="+2.00"></div>
+<div><label for="l_sph">ตาซ้าย SPH</label><input id="l_sph" placeholder="-1.00"></div><div><label for="l_cyl">ตาซ้าย CYL</label><input id="l_cyl" placeholder="-0.50"></div>
+<div><label for="l_axis">ตาซ้าย AXIS</label><input id="l_axis" placeholder="180"></div><div><label for="l_add">ตาซ้าย ADD</label><input id="l_add" placeholder="+2.00"></div>
+<div><label for="pd">PD (มม.)</label><input id="pd" inputmode="decimal"></div><div><label for="examDate">วันที่วัดสายตา</label><input id="examDate" type="date"></div>
+<div class="full"><label for="rxNote">หมายเหตุค่าสายตา</label><textarea id="rxNote"></textarea></div>
+</div>
+<div class="section">ประวัติซื้อแว่นล่าสุด</div>
+<div class="grid">
+<div><label for="buyDate">วันที่ซื้อ</label><input id="buyDate" type="date"></div><div><label for="price">ราคา (บาท)</label><input id="price" type="number" min="0" step="1" inputmode="numeric"></div>
+<div><label for="frame">กรอบแว่น</label><input id="frame"></div><div><label for="lens">เลนส์</label><input id="lens"></div>
+<div><label for="warranty">วันหมดประกัน</label><input id="warranty" type="date"></div><div class="full"><label for="buyNote">หมายเหตุการซื้อ</label><textarea id="buyNote"></textarea></div>
+</div>
+<div class="actions"><button type="submit" class="primary">บันทึกข้อมูล</button><button type="button" id="cancelBtn" class="secondary">ยกเลิก</button></div><div id="formStatus" class="status" role="status"></div>
+</form>
+</section>
 <section id="detail" class="view hidden"><div class="panel"><h2>รายละเอียดลูกค้า</h2><div id="detailBody"></div><div class="actions"><button id="editBtn" class="primary">แก้ไขข้อมูล</button><button id="deleteBtn" class="danger">ลบลูกค้า</button><button id="backBtn" class="secondary">กลับหน้ารายชื่อ</button></div></div></section>
-<section id="backup" class="view hidden"><div class="panel"><h2>สำรองและกู้คืนข้อมูล</h2><div class="notice">ระบบบันทึกข้อมูลลูกค้าใน Safari บนอุปกรณ์นี้ และสร้างสำเนาสำรองภายในเครื่องอัตโนมัติทุกครั้งที่บันทึกหรือลบข้อมูล สำเนานี้ยังอยู่ในพื้นที่เว็บไซต์เดียวกัน หากล้างข้อมูล Safari อาจหายได้ กรุณาดาวน์โหลดไฟล์สำรอง JSON ไปเก็บในแอปไฟล์หรือ iCloud Drive เป็นระยะ</div><p id="autoBackupStatus" class="status">สำรองอัตโนมัติภายใน iPad: กำลังตรวจสอบ…</p><div class="actions"><button id="exportBtn" class="primary">ดาวน์โหลดไฟล์สำรอง</button></div><label for="importFile">กู้คืนจากไฟล์สำรอง JSON</label><input id="importFile" type="file" accept=".json,application/json"><div class="actions"><button id="importBtn" class="secondary">นำเข้าข้อมูลสำรอง</button></div><p id="backupStatus" class="status"></p></div></section></main>
+<section id="backup" class="view hidden"><div class="panel">
+<h2>สำรองและกู้คืนข้อมูล</h2>
+<div class="notice">ระบบบันทึกข้อมูลลูกค้าใน Safari บนอุปกรณ์นี้ และสร้างสำเนาสำรองภายในเครื่องอัตโนมัติทุกครั้งที่บันทึกหรือลบข้อมูล สำเนานี้ยังอยู่ในพื้นที่เว็บไซต์เดียวกัน หากล้างข้อมูล Safari อาจหายได้ กรุณาดาวน์โหลดไฟล์สำรอง JSON ไปเก็บในแอปไฟล์หรือ iCloud Drive เป็นระยะ</div>
+<p id="autoBackupStatus" class="status">สำรองอัตโนมัติภายใน iPad: กำลังตรวจสอบ…</p>
+<div class="actions"><button id="exportBtn" class="primary">ดาวน์โหลดไฟล์สำรอง</button></div>
+<label for="importFile">กู้คืนจากไฟล์สำรอง JSON</label><input id="importFile" type="file" accept=".json,application/json">
+<div class="actions"><button id="importBtn" class="secondary">นำเข้าข้อมูลสำรอง</button></div><p id="backupStatus" class="status"></p>
+</div></section>
+</main>
 <script>
-'use strict';const DB_NAME='JIMOPTIC_LocalDB_Clean',STORE='customers',BACKUP_STORE='auto_backups';let db=null,currentId=null;const $=id=>document.getElementById(id);const fields=['name','phone','birthday','note','r_sph','r_cyl','r_axis','r_add','l_sph','l_cyl','l_axis','l_add','pd','examDate','rxNote','buyDate','price','frame','lens','warranty','buyNote'];
+'use strict';
+const DB_NAME='JIMOPTIC_LocalDB_Clean',STORE='customers',BACKUP_STORE='auto_backups';
+let db=null,currentId=null;
+const $=id=>document.getElementById(id);
+const fields=['name','phone','birthday','note','r_sph','r_cyl','r_axis','r_add','l_sph','l_cyl','l_axis','l_add','pd','examDate','rxNote','buyDate','price','frame','lens','warranty','buyNote'];
 function openDB(){return new Promise((res,rej)=>{let r=indexedDB.open(DB_NAME,2);r.onupgradeneeded=()=>{let d=r.result;if(!d.objectStoreNames.contains(STORE))d.createObjectStore(STORE,{keyPath:'id',autoIncrement:true});if(!d.objectStoreNames.contains(BACKUP_STORE))d.createObjectStore(BACKUP_STORE,{keyPath:'backupId',autoIncrement:true})};r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)})}
 function all(){return new Promise((res,rej)=>{let r=db.transaction(STORE).objectStore(STORE).getAll();r.onsuccess=()=>res(r.result||[]);r.onerror=()=>rej(r.error)})}
 function save(o){return new Promise((res,rej)=>{let r=db.transaction(STORE,'readwrite').objectStore(STORE)[o.id?'put':'add'](o);r.onsuccess=async()=>{try{await autoBackup();res(r.result)}catch(e){res(r.result)}};r.onerror=()=>rej(r.error)})}
@@ -22,16 +96,54 @@ async function autoBackup(){let customers=await all();return new Promise((res,re
 async function remove(id){await new Promise((res,rej)=>{let r=db.transaction(STORE,'readwrite').objectStore(STORE).delete(Number(id));r.onsuccess=()=>res();r.onerror=()=>rej(r.error)});await autoBackup()}
 function show(v){document.querySelectorAll('.view').forEach(x=>x.classList.toggle('hidden',x.id!==v));document.querySelectorAll('.nav button').forEach(x=>x.classList.toggle('active',x.dataset.view===v));if(v==='home')render();window.scrollTo(0,0)}
 document.querySelectorAll('.nav button').forEach(b=>b.onclick=()=>b.dataset.view==='form'?newCustomer():show(b.dataset.view));
-function clearForm(){ $('customerForm').reset();$('cid').value='';currentId=null;$('formTitle').textContent='เพิ่มลูกค้าใหม่';$('formStatus').textContent=''}
+function clearForm(){$('customerForm').reset();$('cid').value='';currentId=null;$('formTitle').textContent='เพิ่มลูกค้าใหม่';$('formStatus').textContent=''}
 function newCustomer(){clearForm();show('form')}
-$('newBtn').onclick=newCustomer;$('cancelBtn').onclick=()=>{clearForm();show('home')};
+$('newBtn').onclick=newCustomer;
+$('cancelBtn').onclick=()=>{clearForm();show('home')};
 $('customerForm').onsubmit=async e=>{e.preventDefault();let o={};if($('cid').value)o.id=Number($('cid').value);fields.forEach(k=>o[k]=$(k).value.trim());o.updatedAt=new Date().toISOString();try{await save(o);clearForm();show('home');$('search').value='';await render();alert('บันทึกข้อมูลลูกค้าเรียบร้อย')}catch(err){$('formStatus').textContent='บันทึกไม่สำเร็จ กรุณาลองใหม่'}};
 async function render(){try{let q=$('search').value.trim().toLocaleLowerCase('th'),data=(await all()).sort((a,b)=>(a.name||'').localeCompare(b.name||'','th'));$('total').textContent=data.length;$('customerList').innerHTML='';let rows=data.filter(c=>[c.name,c.phone,String(c.id)].some(v=>(v||'').toLocaleLowerCase('th').includes(q)));$('empty').classList.toggle('hidden',rows.length>0);rows.forEach(c=>{let d=document.createElement('div');d.className='customer';let t=document.createElement('div');t.className='customerTop';let info=document.createElement('div'),h=document.createElement('h3'),s=document.createElement('div');h.textContent=c.name||'(ไม่มีชื่อ)';s.className='small';s.textContent=(c.phone||'ไม่มีเบอร์โทร')+' · รหัส '+String(c.id).padStart(4,'0');info.append(h,s);let b=document.createElement('button');b.textContent='เปิดประวัติ';b.onclick=()=>detail(c.id);t.append(info,b);d.append(t);$('customerList').append(d)})}catch(e){$('customerList').textContent='เปิดฐานข้อมูลไม่ได้ กรุณารีโหลดหน้า'}}
 $('search').oninput=render;
 async function detail(id){let c=(await all()).find(x=>x.id===Number(id));if(!c)return;currentId=c.id;let labels={name:'ชื่อ-นามสกุล',phone:'เบอร์โทรศัพท์',birthday:'วันเกิด',note:'หมายเหตุ / LINE',r_sph:'ตาขวา SPH',r_cyl:'ตาขวา CYL',r_axis:'ตาขวา AXIS',r_add:'ตาขวา ADD',l_sph:'ตาซ้าย SPH',l_cyl:'ตาซ้าย CYL',l_axis:'ตาซ้าย AXIS',l_add:'ตาซ้าย ADD',pd:'PD (มม.)',examDate:'วันที่วัดสายตา',rxNote:'หมายเหตุค่าสายตา',buyDate:'วันที่ซื้อ',price:'ราคา (บาท)',frame:'กรอบแว่น',lens:'เลนส์',warranty:'วันหมดประกัน',buyNote:'หมายเหตุการซื้อ'};let body=$('detailBody');body.innerHTML='';fields.forEach(k=>{if(c[k]){let p=document.createElement('p'),b=document.createElement('b');b.textContent=labels[k]+': ';p.append(b,document.createTextNode(c[k]));body.append(p)}});show('detail')}
 $('editBtn').onclick=async()=>{let c=(await all()).find(x=>x.id===currentId);if(!c)return;clearForm();$('cid').value=c.id;currentId=c.id;fields.forEach(k=>$(k).value=c[k]||'');$('formTitle').textContent='แก้ไขข้อมูลลูกค้า';show('form')};
-$('deleteBtn').onclick=async()=>{if(currentId==null||!confirm('ยืนยันลบข้อมูลลูกค้ารายนี้หรือไม่? การลบจะย้อนกลับไม่ได้'))return;await remove(currentId);currentId=null;show('home')};$('backBtn').onclick=()=>show('home');
+$('deleteBtn').onclick=async()=>{if(currentId==null||!confirm('ยืนยันลบข้อมูลลูกค้ารายนี้หรือไม่? การลบจะย้อนกลับไม่ได้'))return;await remove(currentId);currentId=null;show('home')};
+$('backBtn').onclick=()=>show('home');
 $('exportBtn').onclick=async()=>{let payload={app:'JIMOPTIC',version:2,exportedAt:new Date().toISOString(),customers:await all()},blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='JIMOPTIC-backup-'+new Date().toISOString().slice(0,10)+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);$('backupStatus').textContent='สร้างไฟล์สำรองแล้ว ตรวจสอบรายการดาวน์โหลดของ Safari'};
-$('importBtn').onclick=async()=>{let f=$('importFile').files[0];if(!f){$('backupStatus').textContent='กรุณาเลือกไฟล์ JSON ก่อน';return}if(!confirm('ควรสำรองข้อมูลปัจจุบันก่อนนำเข้า ดำเนินการต่อหรือไม่?'))return;try{let p=JSON.parse(await f.text()),rows=Array.isArray(p)?p:p.customers;if(!Array.isArray(rows))throw Error();for(let row of rows){let o={...row};delete o.id;await save(o)}await render();$('backupStatus').textContent='นำเข้าข้อมูลแล้ว '+rows.length+' รายการ'}catch(e){$('backupStatus').textContent='นำเข้าไม่สำเร็จ ไฟล์อาจไม่ถูกต้อง'}};
+
+/* Import safely: update an existing customer by phone first, then by ID.
+   New customers are added only when neither phone nor ID matches. */
+$('importBtn').onclick=async()=>{
+  let f=$('importFile').files[0];
+  if(!f){$('backupStatus').textContent='กรุณาเลือกไฟล์ JSON ก่อน';return}
+  if(!confirm('แนะนำให้ดาวน์โหลดไฟล์สำรองปัจจุบันก่อนนำเข้า ดำเนินการต่อหรือไม่?'))return;
+  try{
+    let p=JSON.parse(await f.text()),rows=Array.isArray(p)?p:p.customers;
+    if(!Array.isArray(rows))throw Error('invalid backup');
+    let existing=await all(),added=0,updated=0;
+    for(let row of rows){
+      if(!row||typeof row!=='object')continue;
+      let o={...row};
+      let phone=String(o.phone||'').replace(/\D/g,'');
+      let match=null;
+      if(phone)match=existing.find(c=>String(c.phone||'').replace(/\D/g,'')===phone);
+      if(!match&&o.id!=null)match=existing.find(c=>Number(c.id)===Number(o.id));
+      if(match){
+        o.id=match.id;
+        await save(o);
+        existing=existing.map(c=>Number(c.id)===Number(match.id)?{...o,id:match.id}:c);
+        updated++;
+      }else{
+        delete o.id;
+        let newId=await save(o);
+        o.id=newId;
+        existing.push(o);
+        added++;
+      }
+    }
+    await render();
+    $('backupStatus').textContent='นำเข้าสำเร็จ '+rows.length+' รายการ (เพิ่มใหม่ '+added+' รายการ, อัปเดตข้อมูลเดิม '+updated+' รายการ) — ไม่เพิ่มซ้ำจากเบอร์โทรหรือรหัสลูกค้า';
+  }catch(e){$('backupStatus').textContent='นำเข้าไม่สำเร็จ ไฟล์อาจไม่ถูกต้อง กรุณาตรวจสอบว่าเป็นไฟล์สำรอง JSON ของ JIMOPTIC'}
+};
 (async()=>{try{db=await openDB();await autoBackup();await render();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{})}catch(e){alert('เปิดฐานข้อมูลไม่ได้ กรุณาเปิดผ่านเว็บไซต์ HTTPS ใน Safari')}})();
-</script></body></html>
+</script>
+</body>
+</html>
