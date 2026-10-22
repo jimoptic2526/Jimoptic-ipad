@@ -1,9 +1,1 @@
-{
-  "name": "JIMOPTIC ประวัติลูกค้า",
-  "short_name": "JIMOPTIC",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#f3f7f9",
-  "theme_color": "#123a5a",
-  "description": "แอปประวัติลูกค้าและค่าสายตาเก็บในอุปกรณ์"
-}
+{"name":"JIMOPTIC ประวัติลูกค้า","short_name":"JIMOPTIC","start_url":"./","display":"standalone","background_color":"#f3f7f9","theme_color":"#123a5a","lang":"th"}
